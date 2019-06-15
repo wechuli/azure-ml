@@ -18,3 +18,17 @@ Azure Machine Learning Studio gives you an interactive, visual workspace to easi
 You can manage resources using Projects in Azure Machine Learning Studio where all assets (experiments,datasets,notebooks etc) can be stored.
 
 ## Cortana Intelligent Gallery
+
+## Azure ML Major Components
+
+- **Projects** - Collections of experiments, datasets, notebooks and other resources representing a single project
+- **Experiemnts** - Experiments that you have created and run or saved as drafts
+- **Web Services** - Web services that you have deployed from your experiments
+- **Notebooks** - Jupyter notebooks that you have created
+- **Datasets** - Datasets that you have uploaded into Studio
+- **Trained Models** - Models that you have trained in experiemnts and saved in Studio
+- **Settings** - A collection of settings that you can use to configure your account and resources.
+
+An experiment consists of datasets that provide data to analytical modules, which you connect together to sonctruct a predictive analysis model.
+
+A module is an algorithm that you can perform on your data. Machine Learning Studio has a number of modules ranging from data ingree functions to training, scoring and validation processes. A module may have a set of parameters that you can use to configure the module's internal algorithms.
