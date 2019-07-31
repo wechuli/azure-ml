@@ -1,6 +1,6 @@
 # Azure Machine Learning
 
-Azure Machine Learning Studio is a collaborative, drag-and-drop tool for building, testing, and deploying predictive analytics solutions on your data. 
+Azure Machine Learning Studio is a collaborative, drag-and-drop tool for building, testing, and deploying predictive analytics solutions on your data.
 
 Microsoft Azure Machine Learning Studio is a collaborative, drag-and-drop tool you can use to build, test, and deploy predictive analytics solutions on your data. Machine Learning Studio publishes models as web services that can easily be consumed by custom apps or BI tools such as Excel.
 
@@ -32,3 +32,27 @@ You can manage resources using Projects in Azure Machine Learning Studio where a
 An experiment consists of datasets that provide data to analytical modules, which you connect together to sonctruct a predictive analysis model.
 
 A module is an algorithm that you can perform on your data. Machine Learning Studio has a number of modules ranging from data ingree functions to training, scoring and validation processes. A module may have a set of parameters that you can use to configure the module's internal algorithms.
+
+## Working with Big Data Sources
+
+### types of Data sources
+
+You can import a number of data types into your experiment
+
+- Plain text(.txt)
+- Comma-separated values (CSV) with a header (.csv) or without (.nh.csv)
+- Tab-separated values (TSV) with a header (.tsv) or without (.nh.tsv)
+- Excel file
+- Azure table
+- Hive table
+- SQL database table
+- OData values
+- SVMLight data (.svmlight) (see the SVMLight definition for format information)
+- Attribute Relation File Format (ARFF) data (.arff) (see the ARFF definition for format information)
+- Zip file (.zip)
+- R object or workspace file (.RData)
+
+## Further Reading
+
+- https://docs.microsoft.com/en-us/azure/machine-learning/studio/import-data
+- https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/prepare-data  - preprocessing data tasks
